@@ -4,14 +4,9 @@
 
 int main()
 {
-	std::vector<int> nums = { 0,1,0,3,12 };
+	std::vector<int> nums = { 1,2,3,4,5,1 };
 
-	Solution::MoveZeros(nums);
-
-	for (auto& e : nums)
-	{
-		std::cout << e << " ";
-	}
+	std::cout << Solution::FindPivotIndex(nums);
 
 
 	return 0;

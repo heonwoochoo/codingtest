@@ -54,4 +54,24 @@ public:
 
 		return nums;
 	}
+
+	static int FindPivotIndex(std::vector<int>& nums)
+	{
+		int sum = 0;
+		for (auto& e : nums)
+		{
+			sum += e;
+		}
+
+		int l_sum = 0;
+		int r_sum = sum;
+
+		for (int i = 0; i < nums.size(); ++i)
+		{
+			r_sum -= nums[i];
+			if (l_sum == r_sum) return i;
+			l_sum += nums[i];
+		}
+		return -1;
+	}
 };
