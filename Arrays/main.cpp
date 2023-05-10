@@ -4,10 +4,15 @@
 
 int main()
 {
-	std::vector<int> nums = { 2,1,3,5,6,7 };
-	const int target = 7;
+	std::vector<int> nums = { 0,1,0,3,12 };
 
-	std::cout << Solution::binary_search(nums, target);
+	Solution::MoveZeros(nums);
+
+	for (auto& e : nums)
+	{
+		std::cout << e << " ";
+	}
+
 
 	return 0;
 }
