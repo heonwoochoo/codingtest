@@ -1,2 +1,3 @@
 ﻿  main.cpp
-  Arrays.vcxproj -> C:\Users\cngjs\source\repos\codingtest\Arrays\x64\Debug\Arrays.exe
+C:\Users\cngjs\Desktop\coding\codingtest\Arrays\search.h(12,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Arrays.vcxproj -> C:\Users\cngjs\Desktop\coding\codingtest\Arrays\x64\Debug\Arrays.exe
